@@ -1,25 +1,4 @@
-narujib
-/
-laut_kita
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-laut_kita/application/controllers/Dashboard.php /
-@narujib
-narujib login
-Latest commit 558ca39 17 hours ago
- History
- 1 contributor
-105 lines (96 sloc)  4.33 KB
-  
-<?php defined('BASEPATH') or exit('No direct script access allowed');
+  <?php defined('BASEPATH') or exit('No direct script access allowed');
 
 class Dashboard extends CI_Controller
 {
