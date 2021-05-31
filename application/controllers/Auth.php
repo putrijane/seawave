@@ -75,7 +75,7 @@ class Auth extends CI_Controller
         $this->form_validation->set_rules('password2', 'Password', 'required|trim|matches[password1]');
 
         if ($this->form_validation->run() == false) {
-            $data['judul'] = 'Laut Kita - Buat Akun';
+            $data['judul'] = 'Seawave - Buat Akun';
             $this->load->view('auth/header', $data);
             $this->load->view('auth/registrasi');
             $this->load->view('auth/footer');
