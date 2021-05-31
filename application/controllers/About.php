@@ -4,7 +4,7 @@ class About extends CI_Controller
 {
     public function index()
     {
-        $data['judul'] = 'Laut Kita - Home';
+        $data['judul'] = 'Seawave - Home';
         $this->load->view('bootstrap5/header', $data);
         $this->load->view('about');
         $this->load->view('bootstrap5/footer');
