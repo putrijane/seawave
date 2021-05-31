@@ -32,7 +32,7 @@ class Dashboard extends CI_Controller
 
     public function index()
     {
-        $data['judul'] = 'Laut Kita - Dashboard';
+        $data['judul'] = 'Seawave - Dashboard';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $this->load->view('dashboard/header', $data, $data['user']['nama']);
         $this->load->view('dashboard/sidebar');
@@ -63,7 +63,7 @@ class Dashboard extends CI_Controller
 
     public function list_berita()
     {
-        $data['judul'] = 'Laut Kita - List Berita';
+        $data['judul'] = 'Seawave - List Berita';
         $data['post'] = $this->M_Post->getAllPost();
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $this->load->view('dashboard/header', $data, $data['user']['nama']);
@@ -75,7 +75,7 @@ class Dashboard extends CI_Controller
 
     public function kategori()
     {
-        $data['judul'] = 'Laut Kita - Kategori Berita';
+        $data['judul'] = 'Seawave - Kategori Berita';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $this->load->view('dashboard/header', $data, $data['user']['nama']);
         $this->load->view('dashboard/sidebar');
@@ -86,7 +86,7 @@ class Dashboard extends CI_Controller
 
     public function pengajuan()
     {
-        $data['judul'] = 'Laut Kita - Pengajuan Berita';
+        $data['judul'] = 'Seawave - Pengajuan Berita';
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         $this->load->view('dashboard/header', $data, $data['user']['nama']);
         $this->load->view('dashboard/sidebar');
