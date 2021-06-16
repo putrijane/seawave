@@ -4,10 +4,10 @@ class Home extends CI_Controller
 {
     public function index()
     {
-        $this->load->model('M_Post');
+        $this->load->model('model_barang');
 
         $data['judul'] = 'SEAWAVE - Home';
-        $data['post'] = $this->M_Post->getAllPost();
+        $data['post'] = $this->model_barang->getAllPost();
         $this->load->view('bootstrap5/header', $data);
         $this->load->view('home');
         $this->load->view('bootstrap5/footer');
