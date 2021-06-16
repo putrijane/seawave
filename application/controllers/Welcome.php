@@ -7,7 +7,7 @@ class Welcome extends CI_Controller
 			$this->load->model('model_barang');
 	
 			$data['judul'] = 'SEAWAVE - Home';
-			$this->load->view('');
+			$this->load->view('header');
 			$this->load->view('home');
 			$this->load->view('footer');
 		}
