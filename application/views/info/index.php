@@ -25,9 +25,7 @@
                                     <th>keterangan</th>
                                     <th>gambar</th>
                                     <th>Harga </th>
-                                    <!-- <th>Waktu</th>
-                                    <th>Jenis Barang</th>
-                                    <th>Biaya Perjalanan</th> -->
+
 
                                 </tr>
                             </thead>
@@ -38,9 +36,7 @@
                                         Berat produk : 1000 gram / 1kg<br>
                                     <td><img src="assets/img/ikan/ikan bawal.jpg" height="80px" width="auto"></td>
                                     <td>Rp45.000</td>
-                                    <!-- <td>14:00 - 08:00 WIB</td>
-                                    <td>Motor CBR250 (250cc)</td>
-                                    <td>Rp. 550.000</td> -->
+
                                 </tr>
                             </tbody>
                             <tbody>
@@ -51,9 +47,7 @@
                                     </td>
                                     <td><img src="assets/img/ikan/ikan mujair.jpg" height="80px" width="auto"></td>
                                     <td>Rp23.000</td>
-                                    <!-- <td>14:00 - 11:00 WIB</td>
-                                    <td>Mobil Avanza (2500cc)</td>
-                                    <td>Rp. 2.500.000</td> -->
+
                                 </tr>
                             </tbody>
                             <tbody>
@@ -63,9 +57,7 @@
                                         Berat produk : 500gram / 1kg</td>
                                     <td><img src="assets/img/ikan/Ikan tongkol.jpg" height="80px" width="auto"></td>
                                     <td>Rp20.000</td>
-                                    <!-- <td>14:00 - 05:00 WIB</td>
-                                    <td>Beras Petani Hebat (100kg)</td>
-                                    <td>Rp. 500.000</td> -->
+
                                 </tr>
                             </tbody>
                             <tbody>
@@ -76,9 +68,7 @@
                                     </td>
                                     <td><img src="assets/img/ikan/ikan bandeng.jpg" height="80px" width="auto"></td>
                                     <td>Rp35.000</td>
-                                    <!-- <td>14:00 - 05:00 WIB</td>
-                                    <td>Motor Supra X 2019 (110cc)</td>
-                                    <td>Rp. 350.000</td> -->
+
                                 </tr>
                             </tbody>
                             <tbody>
@@ -88,9 +78,7 @@
                                         jumlah produk : 21-25 ekor per kg</td>
                                     <td><img src="assets/img/ikan/udang-galah.jpg" height="80px" width="auto"></td>
                                     <td>Rp125.000</td>
-                                    <!-- <td>11:00 - 05:00 WIB</td>
-                                    <td>Motor Supra X 2008 (110cc)</td>
-                                    <td>Rp. 350.000</td> -->
+
                                 </tr>
                             </tbody>
                         </table>
