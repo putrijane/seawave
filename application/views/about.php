@@ -1,1 +1,0 @@
-<div class="h1 mt-5">tentang kami</div>
