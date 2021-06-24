@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col-12">
             <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="http://localhost/seawave-main/dashboard">Beranda</a></li>
+                <li class="breadcrumb-item"><a href="http://localhost/seawave/dashboard">Beranda</a></li>
             </ol>
             <div class="card">
                 <div class="card-header">
