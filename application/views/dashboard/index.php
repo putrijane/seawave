@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5">
-                        <p>kami menyediakan jenis jenis ikan yang berkualitas.
+                        <p>kami menyediakan jenis jenis ikan dan bibit bibit udang berkualitas .
 
                         </p>
                     </div>
